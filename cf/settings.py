@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-import django_heroku 
+
 
 import os
 
@@ -21,13 +21,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&v5tce*0vxq&c*bx$o+x34e!)@1j#(xqv7ax9z4lbr=8_c5od8'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['157.245.9.193']
 
+SECRET_KEY='&v5tce*0vxq&c*bx$o+x34e!)@1j#(xqv7ax9z4lbr=8_c5od8'
 
 # Application definition
 
